@@ -1,0 +1,16 @@
+{
+    "name": "minesweeper-ut.batcastle",
+    "title": "Minesweeper-UT",
+    "description": "Google Minesweeper Game for Ubuntu Touch",
+    "framework": "@CLICK_FRAMEWORK@",
+    "architecture": "@CLICK_ARCH@",
+    "version": "1.0.0",
+    "maintainer": "Thomas Castleman <batcastle@draugeros.org>",
+    "icon": "icon.png",
+    "hooks": {
+        "crunchyroll": {
+            "apparmor": "minesweeper-ut.apparmor",
+            "desktop": "minesweeper-ut.desktop"
+        }
+    }
+}
