@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Minesweeper-UT
 Comment=Google Minesweeper Game for Ubuntu Touch
-Exec=webapp-container --enable-media-hub-audio --webappUrlPatterns="https://www.google.com/fbx?fbx=minesweeper" https://www.google.com/fbx?fbx=minesweeper
+Exec=webapp-container --enable-media-hub-audio --webappUrlPatterns=https?://www.google.com/* https://www.google.com/fbx?fbx=minesweeper
 Icon=icon.png
 Terminal=false
 Type=Application

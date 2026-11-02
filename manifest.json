@@ -8,7 +8,7 @@
     "maintainer": "Thomas Castleman <batcastle@draugeros.org>",
     "icon": "icon.png",
     "hooks": {
-        "crunchyroll": {
+        "minesweeper": {
             "apparmor": "minesweeper-ut.apparmor",
             "desktop": "minesweeper-ut.desktop"
         }
